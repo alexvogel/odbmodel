@@ -1,7 +1,7 @@
 import sys
 import os
 odbmodel_version = "[% version %]"
-odbmodel_date = "Feb 4 2013"
+odbmodel_date = "[% date %]"
 
 # 0.01    Erste Version bei BMW
 # 0.02    09.02.2012    kleinere Aenderungen an Hilfetext
