@@ -15,7 +15,7 @@ from model import *
 
 # Definieren der Kommandozeilenparameter
 parser = argparse.ArgumentParser(description='a tool for extracting model data from an abaqus output database file.',
-                                 epilog='author: alexander.vogel@caegroup.de | version: '+odbmodel_version+' | date: '+odbmodel_date)
+                                 epilog='author: alexander.vogel@prozesskraft.de | version: '+odbmodel_version+' | date: '+odbmodel_date)
 parser.add_argument('--odb', metavar='ODBFILE', type=str, required=True,
                    help='abaqus output database file')
 parser.add_argument('--instance', metavar='INSTANCE', action='store', default='PART-1-1',
