@@ -227,7 +227,7 @@ class model(object):
                     ergebnis = "output '"+str(output)+"' doesn't match pattern used in postfunction 'value_3'"
 
             elif self.postfunction == "vector":
-                search = re.search('([-+]?[0-9]*\.?([0-9]+)?([eE][-+]?[0-9]+)?\s*)\s*,*\s*([-+]?[0-9]*\.?([0-9]+)?([eE][-+]?[0-9]+)?)\s*,*\s*([-+]?[0-9]*\.?([0-9]+)?([eE][-+]?[0-9]+)?)', str(output))
+                search = re.search('([-+]?[0-9]*\.?[0-9]*([eE][-+]?[0-9]+)?\s*)\s*,*\s*([-+]?[0-9]*\.?[0-9]*([eE][-+]?[0-9]+)?)\s*,*\s*([-+]?[0-9]*\.?[0-9]*([eE][-+]?[0-9]+)?)', str(output))
                 if (search):
                     ergebnis = str(search.group())
                 else:
