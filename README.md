@@ -1,4 +1,4 @@
-# odbhistory
+# odbmodel
 
 extract model data from Abaqus odb files
 
