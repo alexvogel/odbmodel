@@ -3,7 +3,7 @@ import os
 odbmodel_version = "[% version %]"
 odbmodel_date = "[% date %]"
 
-# 0.01    Erste Version bei BMW
+# 0.01    Erste Version
 # 0.02    09.02.2012    kleinere Aenderungen an Hilfetext
 # 0.1     04.02.2013    Zusaetzlicher Parameter 'postfunction' implementiert
 
